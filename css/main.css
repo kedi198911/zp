@@ -1,0 +1,119 @@
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,code,form,fieldset,legend,input,button,textarea,select,th,td{margin:0; padding:0;}
+body{font:12px "PingFangSC-Regular, sans-serif"; background: #fff;}
+img{border:0; vertical-align:middle;}
+ol,ul{list-style:none;}
+a{text-decoration: none;}
+a:hover{text-decoration: underline;}
+table{border-collapse:collapse; border-spacing:0;}
+.clearfix:after{clear:both; height: 0;  display: block; visibility:hidden; content: " ";}
+.clearfix{*zoom:1}
+
+header{background: url("../images/bg.jpg") no-repeat center; height:538px; }
+
+.nav{position: fixed; bottom: 20%; left: 0; z-index: 1; padding: 10px; background: #d14949;}
+.nav span{width: 100% ;  display: block; text-align: right;  font-size: 16px; color: #fff; cursor:pointer;}
+.nav h4{text-align: center; line-height: 30px; font-size: 16px; color: #fff; font-weight: bold; }
+.nav li{ text-align: center;}
+.nav li a,.nav a{ display: block; width: 100%; line-height: 25px; font-size: 14px; color: #fff; }
+.nav li a:hover,.nav a:hover{ display: block; width: 100%; background: #d48080; text-decoration: none;  }
+.nav p{margin:10px auto; text-align: center;  line-height: 25px; font-size: 14px; color: #b3d4fc;  }
+.nav-main .dhzpj{ display: none;}
+
+.container h3{ margin: 20px auto; text-align: center; line-height: 50px;  font-size: 30px; font-weight: bold; color: #234e5f; font-family: "Microsoft YaHei";}
+.zpys-z1{ background:#f2f7fa; padding: 20px 0;}
+.z1 h4{text-align: center; line-height: 50px; font-size:20px; font-weight: bold; }
+
+.z1-list dl{background: #fff; padding:15px;}
+.z1-list dt{line-height: 35px; text-align: left; font-size: 16px; color: #eb5e54;}
+.z1-list dd{  background:#f4f4f4; padding:5px;  text-align: left; line-height:25px; font-size: 14px;}
+.z1-list p{ display: block;  background:#234d5d; color: #fff;  text-align: center; font-size: 14px; line-height: 35px; cursor:pointer;}
+
+.modal { padding: 100px 0 0 0; }
+.modal .close{font-size: 24px;}
+.modal-content{width:100%; padding:20px; border: 0;  border-radius:0; box-shadow:none; background: #fff;}
+.modal-main{ text-align: left; line-height: 25px; font-size: 14px;  }
+.modal-main b{ line-height: 35px;  }
+
+.hgjh-z1-2{ background: #e2342b; padding: 20px 0;}
+.hgjh-z1-2 h3{ color: #fff;  }
+.hgjh-z1-2 h4{ margin-bottom: 20px;  text-align: center; line-height:20px; font-size: 14px; color: #fff;}
+.hgjh-z1-2 .hwhj p{ background: #fff; line-height: 55px; text-align: center; font-size: 14px; overflow: hidden;}
+.hgjh-z1-2 .hwhj p img{width:100%; transform: scale(1);  transition: all 1s ease-in-out 0s;}
+.hgjh-z1-2 .hwhj img:hover{ transform: scale(1.08);}
+.hgjh-z1-2 .hwhj:hover{ box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2); transition: all .4s ease; color: #017baa;}
+
+.zptime-z3{ padding: 20px;  background-image:url("../images/3.jpg"); background-repeat:repeat-y; background-attachment:fixed; background-position: 10% 50%; background-color: #2ca3dd;}
+.zptime-z3 h3{color:#fff;}
+.z3-main{ font-size: 14px; text-align: left; margin-left:40%;}
+.z3-list{ margin: 10px; padding:20px; border: 1px solid #fff; background: #1680cc; color: #fff;}
+.z3-list h4{ line-height: 30px; font-size: 16px;}
+.z3-list p{ line-height: 25px; font-size: 14px;}
+
+.zplc-z2{padding: 20px 0 40px 0; background: #f3f7fa;}
+.zplc-z2 p{ line-height:35px; font-size: 14px; text-align: center; }
+.zplc-z2 .ygms,.zplc-z2 .teacherms{ text-align: center;}
+.zplc-z2 .teacherms { margin-left: 10px;}
+.zplc-z2 .teacherms .col-sm-1{ margin-right: 5% }
+
+.zpvideo-z4{padding: 20px 0 40px 0; background: #f3f7fa;}
+.zpvideo-z4 h4{ font-size: 16px; line-height: 35px;}
+.z4-main{padding: 10px; }
+.z4-main-sp{padding: 10px; line-height: 35px; background: #fff; font-size: 14px;}
+.z4-main-sp p{ text-align: center;}
+
+.zphj-z5 p{ text-align: center; line-height:85px; font-size:18px; color: #e3322a; font-family: "Microsoft YaHei";}
+.z5-main{width:100%; text-align: center; font-size: 14px; line-height: 30px;}
+.z5-main thead th{text-align: center; background: #e2342b; color: #fff; border: 1px solid #fff;}
+.z5-main tbody td{ border: 1px solid #fff;}
+.z5-main .tb-l1,.z5-main .tb-l2,.z5-main .tb-l3{width:33%; }
+.table-hover{background:#e4f1f7;}
+
+.zpic-z6{background: #234d5d; padding-bottom: 20px;}
+.zpic-z6 h3{color:#fff;}
+.zpic-z6 p{ text-align: center; line-height:25px; font-size: 14px; color: #fff; }
+.z6-main{ background: #fff; padding: 20px; margin-bottom: 10px; }
+.z6-main a{ color:#e0e0e0;}
+.z6-main a:hover{ text-decoration: none;}
+
+.zpic-z7{position: relative;  height:454px;  background:#2ca3dd url("../images/dbg.png") no-repeat center; }
+.z7-main{ width:800px; height: 454px; margin:0 auto; text-align: center; }
+.zpic-z7 .z7-t1{ margin-top:140px;  text-align: center; font-size: 30px;   color: #fff; font-family: "Microsoft YaHei";}
+.zpic-z7 .z7-t2{ position: absolute; bottom: 10%; left:15%; opacity: 0.6;}
+.zpic-z7 .z7-t3{ position: absolute; top: 10%; right: 20%; }
+.zpic-z7 .z7-t4{ position: absolute; top: 70%; right: 40%; }
+
+.ft{padding-top:20px; padding-bottom: 20px;   margin-top: 10px; background: #fff; font-family: "Microsoft YaHei";}
+.ft-tb p{ text-align: center; font-size: 12px; line-height: 25px; color: #000; }
+.ft-phone{padding-left:5%; text-align: left; font-size: 14px; line-height:40px;  color: #000;  }
+.ft-b{ margin-left: 10px;}
+
+#tbox{ position:fixed;  right:50px; bottom:15px; float:right;  width:50px;  }
+#gotop{display:block;  width:50px; height:50px; background:url(../images/icon.png) no-repeat; }
+
+@media screen and (max-width: 768px){
+   header{ background:url("../images/bgyd.jpg") no-repeat center; background-size:100%; height:280px; }
+
+   .nav{ position: fixed;  bottom:0; left: 0; z-index: 1; padding: 10px; width: 100%; height:auto; }
+   .nav h4{display: none;}
+   .nav li{float: left; width:25%; font-size: 12px;}
+   .nav p{display: none;}
+   .nav-main .dhzpj{ display: inline;}
+   .container{ width:100%;   text-align: center;}
+   .z1-list dt{text-align: center;}
+
+   .hgjh-z1-2 .hwhj{margin: 10px auto;}
+
+   .zptime-z3{ background-repeat:no-repeat;}
+   .z3-main{margin-left:10%;}
+
+   .z5-main .tb-l1,.z5-main .tb-l2{width:25%;}
+   .z5-main .tb-l3{width:50%;}
+
+   .zpic-z7 .z7-t1{ margin-top:170px;  font-size:18px; }
+   .zpic-z7 .z7-t2{bottom:0; right:1%; opacity: 0.1;}
+   .zpic-z7 .z7-t4{bottom:0; right:1%;}
+
+   .ft-phone{text-align: left;  margin: 10px auto;}
+
+   #tbox{ display: none;}
+}
